@@ -73,7 +73,7 @@ Error generating stack: `+e.message+`
         border: 1px solid transparent;
         color: white;
     }
-`,Bv=({toggle:c})=>tt.jsxs(Cv,{children:[tt.jsx("div",{children:tt.jsx("img",{src:"/images/dices1.png",alt:"dices"})}),tt.jsxs("div",{className:"content",children:[tt.jsx("h1",{children:"Dice Game"}),tt.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Gl.div`
+`,Bv=({toggle:c})=>tt.jsxs(Cv,{children:[tt.jsx("div",{children:tt.jsx("img",{src:"./images/dices1.png",alt:"dices"})}),tt.jsxs("div",{className:"content",children:[tt.jsx("h1",{children:"Dice Game"}),tt.jsx(or,{onClick:c,children:"Play Now"})]})]}),Cv=Gl.div`
     max-width: 1180px;
     height: 100vh;
     display: flex;
