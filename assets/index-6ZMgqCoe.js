@@ -128,7 +128,7 @@ Error generating stack: `+e.message+`
         font-size: 24px;
         font-weight: 500;
     }
-`,Vv=({currentDice:c,rollDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:`/images/dice_${c}.png`,alt:`dice ${c}`})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Gl.div`
+`,Vv=({currentDice:c,rollDice:s})=>tt.jsxs(Lv,{children:[tt.jsx("div",{className:"dice",onClick:s,children:tt.jsx("img",{src:`./images/dice_${c}.png`,alt:`dice ${c}`})}),tt.jsx("p",{children:"Click on Dice to roll"})]}),Lv=Gl.div`
     display: flex;
     flex-direction: column;
     align-items: center;
